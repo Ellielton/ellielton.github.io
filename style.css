@@ -1,0 +1,40 @@
+header {
+    align-items: center;
+    background-color: #4650BD;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 120px;
+    width: 1200px;
+}
+
+.lista {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0;
+    gap: 32px;
+
+}
+
+.lista, a{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    list-style: none;
+    text-decoration: none;
+
+}
+.fundo {
+    background: linear-gradient(#304968 0%, #36C1A0 52.6%, #4650BD 100%);
+     position: absolute;
+    top: 534px;
+    height: 2193px;
+    width: 1440px;
+}
+
+@media screen and (min-:500px)
